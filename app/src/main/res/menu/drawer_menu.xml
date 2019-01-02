@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_registration"
+            android:icon="@drawable/ic_registration"
+            android:title="Registration" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="LOGIN" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_newsearch"
+            android:icon="@drawable/ic_newsearch"
+            android:title="New Search" />
+
+        <item
+            android:id="@+id/nav_lastsearch"
+            android:icon="@drawable/ic_lastserch"
+            android:title="Last Search" />
+
+        <item
+            android:id="@+id/nav_savedsearch"
+            android:icon="@drawable/ic_savedsearch"
+            android:title="Saved Search" />
+
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorites"
+            android:title="Favorites" />
+
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_contactus"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_aboutus"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/ic_blog"
+            android:title="Blog" />
+
+        <item
+            android:id="@+id/nav_newprojects"
+            android:icon="@drawable/ic_newprojects"
+            android:title="New Projects" />
+
+
+    </group>
+
+</menu>

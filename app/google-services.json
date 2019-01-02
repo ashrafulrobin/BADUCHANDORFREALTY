@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "430098825630",
+    "firebase_url": "https://baduschandorfrealtyapp-3fa1a.firebaseio.com",
+    "project_id": "baduschandorfrealtyapp-3fa1a",
+    "storage_bucket": "baduschandorfrealtyapp-3fa1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430098825630:android:bbde283e44f5054f",
+        "android_client_info": {
+          "package_name": "com.example.ashra.badu_chandorfrealty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430098825630-np7rfd52ur1kbigtm688mf70jf6c3m65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmXfLmXg9lZxL1zK6ZosTGMjBhWSNE0Gg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
