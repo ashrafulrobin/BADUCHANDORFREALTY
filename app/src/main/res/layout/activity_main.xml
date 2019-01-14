@@ -9,6 +9,8 @@
     tools:context="com.example.ashra.badu_chandorfrealty.MainActivity"
     tools:openDrawer="start">
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

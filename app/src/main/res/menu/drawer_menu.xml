@@ -3,61 +3,106 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_registration"
-            android:icon="@drawable/ic_registration"
-            android:title="Registration" />
-        <item
-            android:id="@+id/nav_login"
-            android:icon="@drawable/ic_login"
-            android:title="LOGIN" />
 
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home"
             android:title="Home" />
+        <item
+            android:id="@+id/nav_create_property"
+            android:icon="@drawable/ic_create_property"
+            android:title="Create Property" />
 
         <item
-            android:id="@+id/nav_newsearch"
-            android:icon="@drawable/ic_newsearch"
-            android:title="New Search" />
-
-        <item
-            android:id="@+id/nav_lastsearch"
-            android:icon="@drawable/ic_lastserch"
-            android:title="Last Search" />
-
-        <item
-            android:id="@+id/nav_savedsearch"
-            android:icon="@drawable/ic_savedsearch"
-            android:title="Saved Search" />
-
-        <item
-            android:id="@+id/nav_favorites"
-            android:icon="@drawable/ic_favorites"
-            android:title="Favorites" />
-
-        <item
-            android:id="@+id/nav_contactus"
-            android:icon="@drawable/ic_contactus"
-            android:title="Contact Us" />
-
-        <item
-            android:id="@+id/nav_aboutus"
-            android:icon="@drawable/ic_aboutus"
-            android:title="About Us" />
-
-        <item
-            android:id="@+id/nav_blog"
-            android:icon="@drawable/ic_blog"
-            android:title="Blog" />
-
-        <item
-            android:id="@+id/nav_newprojects"
+            android:id="@+id/nav_home_for_sale"
             android:icon="@drawable/ic_newprojects"
-            android:title="New Projects" />
+            android:title="Home For Sale" />
 
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Agent List" />
 
     </group>
 
+<group  android:checkableBehavior="single">
+
+        <item
+
+            android:id="@+id/rent"
+
+            android:title="HOME FOR RENT">
+
+<menu>
+
+
+            <item
+
+                android:id="@+id/nav_rent_your_home"
+                android:icon="@drawable/ic_sale"
+                android:title="Rent Your House" />
+            <item
+                android:id="@+id/nav_commercial_rent"
+                android:icon="@drawable/ic_commercial"
+                android:title="Rent Your Commercial" />
+
+
 </menu>
+        </item>
+</group>
+
+    <group  android:checkableBehavior="single">
+        <item
+            android:id="@+id/commercial"
+            android:title="COMMERCIAL">
+
+        <menu>
+            <item
+                android:id="@+id/nav_commercial_for_sale"
+                android:icon="@drawable/ic_comm_sale"
+                android:title="Commercial For Sale" />
+            <item
+                android:id="@+id/nav_for_lease"
+                android:icon="@drawable/ic_comm_lease"
+                android:title="For Lease" />
+        </menu>
+        </item>
+
+</group>
+
+    <group  android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="ABOUT US">
+
+
+     <menu>
+    <item
+    android:id="@+id/nav_contactus"
+android:icon="@drawable/ic_contactus"
+    android:title="Contact Us" />
+
+
+    <item
+        android:id="@+id/nav_office"
+android:icon="@drawable/ic_office"
+        android:title="Office" />
+
+    <item
+        android:id="@+id/nav_career"
+android:icon="@drawable/ic_career"
+        android:title="Career" />
+
+
+    <item
+        android:id="@+id/nav_blog"
+android:icon="@drawable/ic_blog"
+        android:title="Blog" />
+
+
+</menu>
+        </item>
+    </group>
+    
+</menu>
+
